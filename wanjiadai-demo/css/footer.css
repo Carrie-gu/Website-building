@@ -1,0 +1,253 @@
+/*-------- footer -----------*/
+.wrap .parterner
+{
+	background-color:#fff;
+} 
+
+.wrap .partner .partnerbox
+{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+}
+
+.wrap .partner .partnerbox h3
+{
+	font-size:20px;
+	text-align: center;
+	line-height: 80px;
+}
+
+.wrap .partner .partnerbox img
+{
+	vertical-align: middle;
+}
+
+.wrap .footer 
+{
+	background-color:#333;
+	color:#999;
+}
+
+.wrap .footer .footerbox
+{
+	width:1000px;
+	margin:0 auto;
+	position: relative;
+}
+
+.wrap .footer .footerbox a
+{
+	color:#999;
+}
+
+.wrap .footer .footerbox .menu li
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+.wrap .footer .footerbox .menu li a:hover
+{
+	color:#fff;
+}
+
+.wrap .footer .footerbox .menu li span
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.wrap .footer .footerbox .call .icon1
+{
+	width:21px;
+	height:21px;
+	background:url(../images/spring.fw.png) -105px -192px no-repeat;
+}
+
+.wrap .footer .footerbox .call span
+{
+	font-size: 23px;
+}
+
+.wrap .footer .footerbox .call .icon
+{
+	border-radius:50%;
+	height:30px;
+	width:30px;
+	margin-left: 5px;
+}
+
+.wrap .footer .footerbox .call .icon2
+{
+	margin-left: 15px;
+	background: #474747 url(../images/spring.fw.png) -67px -223px no-repeat;
+}
+
+.wrap .footer .footerbox .call .icon2:hover
+{
+	background: #525252 url(../images/spring.fw.png) -67px -250px no-repeat;
+}
+
+.wrap .footer .footerbox .call .icon3
+{
+	background: #474747 url(../images/spring.fw.png) 5px -219px no-repeat;
+}
+
+.wrap .footer .footerbox .call .icon3:hover
+{
+	background: #525252 url(../images/spring.fw.png) 5px -248px no-repeat;
+}
+
+.wrap .footer .footerbox .call .icon4
+{
+	background: #474747 url(../images/spring.fw.png) -33px -222px no-repeat;
+}
+
+.wrap .footer .footerbox .call .icon4:hover
+{
+	background: #525252 url(../images/spring.fw.png) -33px -250px no-repeat;
+}
+
+.wrap .footer .footerbox dl
+{
+	height: 60px;
+	margin-top:25px;
+	border-bottom: 1px solid #444;
+}
+
+.wrap .footer .footerbox dl dt 
+{
+	display: inline-block;
+}
+
+.wrap .footer .footerbox dl dd
+{
+	margin-left: 40px;
+	display: inline-block;
+}
+
+.wrap .footer .footerbox dl dd a:hover
+{
+	color:#fff;
+}
+
+.wrap .footer .footerbox dl .more a:hover
+{
+	text-decoration: underline;
+}
+
+.wrap .footer .footerbox .safe
+{
+	display: inline-block;
+}
+
+.wrap .footer .footerbox .safe a
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.wrap .footer .footerbox .safe a img
+{
+	width:95px;
+	height:35px;
+	vertical-align: middle;
+}
+
+.wrap .footer .footerbox .copyright
+{
+	display: inline-block;
+	margin-top:20px;
+	color:#888; 
+}
+
+.wrap .footer .footerbox .copyright span
+{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.wrap .footer .footerbox .download
+{
+	width:280px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.wrap .footer .footerbox .download img
+{
+	display: inline-block;
+	height:80px;
+	width:80px;
+	vertical-align: middle;
+}
+
+.wrap .footer .footerbox .download div
+{
+	display: inline-block;
+	color:#999;
+}
+
+.wrap .footer .footerbox .download div a
+{
+	margin-top: 5px;
+	text-align: center;
+	color:#fff;
+	padding-right: 5px;
+	line-height: 25px;
+	width:80px;
+	font-size: 13px;
+	height: 25px;
+	background-color: #474747;
+}
+
+.wrap .footer .footerbox .download div a:hover
+{
+	background-color: #525252;
+}
+
+.wrap .footer .footerbox .download div a span
+{
+	vertical-align: middle;
+	height:25px;
+	width:25px;
+}
+
+.wrap .footer .footerbox .download div .icon1 span
+{
+	background:url(../images/spring.fw.png) -100px -225px no-repeat;
+}
+
+.wrap .footer .footerbox .download div .icon1:hover span
+{
+	background:url(../images/spring.fw.png) -100px -256px no-repeat;
+}
+
+.wrap .footer .footerbox .download div .icon2 span
+{
+	background:  url(../images/spring.fw.png) -137px -225px no-repeat;
+}
+
+.wrap .footer .footerbox .download div .icon2:hover span
+{
+	background:  url(../images/spring.fw.png) -137px -256px no-repeat;
+}
+
+.wrap .back-to-top
+{
+	width:50px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.6);
+	position:fixed;
+	bottom:50px;
+	right:30px;
+	color: #fff;
+}
+
+.wrap .back-to-top:hover
+{
+	background-color: rgba(0,0,0,0.7);
+}

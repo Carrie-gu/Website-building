@@ -1,0 +1,2041 @@
+/*---------  home -----------*/
+/*------- banner ------*/
+.bannerbox
+{
+	width:100%;
+	height:300px;
+	overflow: hidden;
+}
+
+.bannerbox .banner
+{
+	width:9999px;
+	position:absolute;
+	left:0;
+}
+
+.bannerbox .banner li
+{
+	float:left;
+}
+
+.bannerbox .num
+{
+	position: absolute;
+	bottom: 30px;
+	left:550px;
+}
+
+.bannerbox .num li
+{
+    margin-left: 25px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.bannerbox .num li.on
+{
+	background-color:yellow;
+}
+
+.bannerbox .side 
+{
+    height: 170px;
+    width: 240px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 35px;
+    right: 150px;
+    color: #fff;
+    z-index: 10;
+    padding: 30px 20px;
+}
+
+.bannerbox .side .side-icon li
+{		
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.bannerbox .side .side-icon .icon1
+{		
+	background: url(../images/spring.fw.png) -178px -226px no-repeat;
+}
+
+.bannerbox .side .side-icon .icon2
+{	
+	display: none;	
+	background: url(../images/spring.fw.png) -233px -228px no-repeat;
+}
+
+.bannerbox .side .side1 p
+{
+	line-height: 50px;
+}
+
+.bannerbox .side .side1 span
+{
+	display: inline-block;
+    font-size: 18px;
+    color:#fff;
+}
+
+.bannerbox .side .side1 em
+{
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.bannerbox .side .side1 em small
+{
+	font-size: 13%;
+}
+
+.bannerbox .side .side1 div a
+{
+	height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 30px;
+    font-weight:600;
+}
+
+.bannerbox .side .side1 div .btn1
+{
+	width: 120px;
+	background-color: #ff696b;
+	border-bottom: 2px solid #cc5456;
+}
+
+.bannerbox .side .side1 div .btn2
+{
+	margin-left: 10px;
+	width: 80px;
+	background-color: #fab964;
+	border-bottom: 2px solid #c89450;
+}
+
+.bannerbox .side .side2
+{
+	display: none;
+}
+
+.bannerbox .side .side2
+{
+	text-align: center;
+}
+
+.bannerbox .side .side2 img
+{
+    width: 140px;
+    margin-top: 10px;
+}
+/*------ main -------*/
+
+/*----- part1 ------*/
+.content
+{
+	width:1200px;
+	margin:0 auto;
+}
+
+.content .introduce
+{
+	height: 170px;
+	padding:0px 20px;
+}
+
+.content .introduce li
+{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.content .introduce li,.content .introduce li div
+{
+	display: inline-block;
+}
+
+.content .introduce li .icon span
+{
+	width:50px;
+	height:50px;
+	padding: 17px;
+	margin-right: 20px;
+	border-radius:20px;
+}
+
+.content .introduce li .icon1
+{
+	background: #fc6a6b url(../images/spring.fw.png) 20px 20px no-repeat;
+}
+
+.content .introduce li .icon2
+{
+	background: #5da1e3 url(../images/spring.fw.png) -42px 20px no-repeat;
+}
+
+.content .introduce li .icon3
+{
+	background: #83c132 url(../images/spring.fw.png) -110px 20px no-repeat;
+}
+
+.content .introduce li .icon4
+{
+	background: #fcbb50 url(../images/spring.fw.png) -175px 20px no-repeat;
+}
+
+.content .introduce li .txt
+{
+	margin-top: 10px;
+	float:right;
+}
+
+.content .introduce li div h3
+{
+	font-size: 17px;
+	font-weight:700;
+	color:#444;
+	margin-bottom: 5px;
+}
+
+.content .introduce li div p
+{
+	font-size: 13px;
+	color:#444;
+	line-height: 1.5em;
+}
+
+.content .total
+{
+	padding: 20px;
+}
+
+.content .total li
+{
+	display: inline-block;
+}
+
+.content .total li .icon
+{
+	height: 25px;
+	width:25px;
+	vertical-align: middle;
+}
+
+.content .total li .icon1
+{
+	background: url(../images/spring.fw.png) -81px -68px no-repeat;
+}
+
+.content .total li .icon2
+{
+	background: url(../images/spring.fw.png) -111px -68px no-repeat;
+}
+
+.content .total li .icon3
+{
+	background: url(../images/spring.fw.png) -143px -66px no-repeat;
+}
+
+.content .total li span
+{
+	font-size: 13px;
+	padding: 0px 5px;
+	font-weight:600;
+}
+
+.content .total li .data
+{
+	color:#fc6a6b;
+	font-weight: 700;
+	font-size: 17px;
+}
+/*----- part2 ------*/
+.box
+{
+	margin-bottom: 20px;
+}
+
+.part2 .left
+{
+	display: inline-block;
+	height:138px;
+	width:820px;
+	border:1px solid #ddd;
+	position: relative;
+}
+
+.part2 .box .box2
+{
+	border:1px solid #fcbb50;
+}
+
+.part2 .left .icon-new
+{
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.sup
+{
+	position:absolute;
+	display: none;
+	width:250px;
+	height:53px;
+	color:#fff;
+	line-height: 70px;
+	font-size:14px;
+	z-index: 22;
+	background:url(../images/spring.fw.png) 0 -133px no-repeat;
+}
+
+.part2 .box .box1 .sup
+{
+	top:18px;
+	left:145px;
+}
+
+.part2 .box .box1 table .row-1 .rate:hover .sup
+{
+	display: block;
+}
+
+.part2 .box .box2 .sup
+{
+	top:-50px;
+	left:55px;
+}
+
+.part2 .box .box2 table .row-1 .rate:hover .sup
+{
+	display: block;
+}
+
+.part2 .left table
+{
+	/*display: inline-block;
+	padding:19px 5px 18px 80px;*/
+	float: left;
+    margin: 19px 5px 18px 80px;
+}
+
+.part2 .left table caption
+{
+	text-align: left;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.part2 .left table caption:hover a
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.part2 .left table tbody tr td
+{
+	text-align: left;
+	font-size: 20px;
+	color:#fc6a6b;
+	font-weight: 600;
+	padding: 5px 15px 0px 7px;
+}
+
+.part2 .left table tbody .row-1 .color
+{
+	color:#666;
+	font-weight: 600;
+}
+
+.part2 .left table tbody tr td span
+{
+	font-size: 13px;
+	color:#fc6a6b;
+}
+
+.part2 .left table tbody tr td small
+{
+	display: inline-block;
+	font-size: 13px;
+	color:#888;
+	font-weight: 500;
+}
+
+.part2 .left table tbody tr td .progress-bar
+{
+	height:5px;
+	width:75px;
+	background-color: #ddd;
+}
+
+.part2 .left table tbody tr td .progress-bar div
+{
+	background-color:#589ee5;
+	height:5px;
+	width:45%;
+	animation: move 1s ease-in; 
+}
+
+@keyframes move
+{
+	from{width:0;}
+	to{width:45%;}
+}
+
+.part2 .left table tbody tr td a
+{
+	font-size: 15px;
+	background-color:#589ee5;
+	padding: 3px 20px;
+	color:#fff;	
+	font-weight:500;
+}
+
+.part2 .left table tbody tr td a:hover
+{
+	opacity:0.7;
+}
+
+.part2 .left .split-line
+{
+    height: 100px;
+    margin: 20px 0px;
+    width: 1px;
+    background-color: #ddd;
+}
+
+.part2 .left .poster
+{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.part2 .right
+{
+	height:138px;
+	display: inline-block;
+	border:1px solid #ddd;
+}
+
+.part2 .left .inner
+{
+	width:285px;
+	height: 140px;
+	background-color: #fcbb50;
+	display: inline-block;
+	color:#fff;
+}
+
+.part2 .left .inner h2
+{
+	font-size: 27px;
+	font-weight: 600;
+	padding-top: 35px;
+	padding-left: 30px;
+}
+
+.part2 .left .inner h2 small
+{
+	font-weight:500;
+}
+
+.part2 .left .inner p
+{
+	font-size:16px;
+	padding-top:10px;
+	padding-left: 30px;
+}
+
+.part2 .box2 .table
+{
+	position: absolute;
+	top:25px;
+	right: 5px;
+}
+
+.part2 .box2 .icon
+{
+	height:30px;
+	width:65px;
+	background:url(../images/spring.fw.png) -89px -95px no-repeat;
+	position:absolute;
+	top:17px;
+	left:370px;
+	color:#fff;
+	font-weight: 600;
+}
+
+/*---------- part3 -------------*/
+
+.part3 .project
+{
+	height:462px;
+	border:1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.part3 .project .pro-info
+{
+	display: inline-block;
+	width: 285px;
+	height:100%;
+	text-align: center;
+	color:#fff;
+	position:relative;
+}
+
+.part3 .project1 .pro-info
+{
+	background-color:#ff5d5c;
+}
+
+.part3 .project2 .pro-info
+{
+	background-color:#75bf00;
+}
+
+.part3 .project .pro-info .title
+{
+	font-size: 20px;
+	margin:25px 0px 35px 0px;
+}
+
+.part3 .project .pro-info p
+{
+	font-size:28px;
+	font-weight:600;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.part3 .project .pro-info .small
+{
+	font-size: 17px;
+	font-weight:500;
+}
+
+.part3 .project .pro-info p span
+{
+	padding-right: 5px;
+	height:25px;
+	width:17px;
+	background:url(../images/spring.fw.png) 0px -190px no-repeat;
+}
+
+.part3 .project .pro-info a
+{
+	margin-top: 10px;
+	color:#fff;
+	font-size: 15px;
+	display: inline-block;
+	border:1px solid #fff;
+	padding:3px 12px;
+	position:absolute;
+	bottom:40px;
+	left:50%;
+	margin-left:-54px;
+}
+
+.part3 .project1 .pro-info a:hover
+{
+	background-color: #fff;
+	color:#ff5d5c;
+}
+
+.part3 .project2 .pro-info a:hover
+{
+	background-color: #fff;
+	color:#75bf00;
+}
+
+.part3 .project .pro-info img
+{
+	margin-top: -8px;
+}
+
+.part3 .project table
+{
+	display: inline-block;
+	font-size: 16px;
+	text-align: left;
+}
+
+.part3 .project table thead tr th
+{
+	font-size: 14px;
+	font-weight: 500;
+	color:#888;
+}
+
+.part3 .project table thead tr
+{
+	line-height: 63px;
+}
+
+.part3 .project table tbody tr
+{
+	line-height:77px;
+}
+
+.part3 .project table tbody td
+{
+	padding-right:40px;
+	border-top:1px dashed #ddd;
+	position:relative;
+}
+
+.part3 .project table tbody td.clr-pink
+{
+	font-size: 20px;
+	color:#ff5d5c;
+}
+
+.part3 .project table tbody td.clr-gray
+{
+	font-size: 20px;
+	color:#666;
+}
+
+.part3 .project table tbody td span
+{
+	font-size: 14px;
+}
+
+.part3 .project table tbody tr .col-2 a:hover
+{
+	color:red;
+	text-decoration: underline;
+}
+
+.part3 .project table tbody tr td a i
+{
+	vertical-align: middle;
+	width:23px;
+	height:23px;
+}
+
+.part3 .project1 table tbody tr td a i
+{
+	background: url(../images/spring.fw.png)-50px -192px no-repeat;
+}
+
+.part3 .project2 table tbody tr td a i
+{
+	background: url(../images/spring.fw.png)-74px -192px no-repeat;
+}
+
+.part3 .project table tbody tr .col-1
+{
+	border:none;
+}
+
+.part3 .project table tbody tr td .btn
+{
+	margin-left: 25px;
+	vertical-align: middle;
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+
+.part3 .project1 table tbody tr td .btn
+{
+	background-color: #ff5d5c;
+}
+
+.part3 .project2 table tbody tr td .btn
+{
+	background-color: #75bf00;
+}
+
+.part3 .project table tbody tr td .btn:hover
+{
+	opacity: 0.7;
+}
+
+.part3 .project table tbody tr:hover
+{
+	background-color: #f2f2f2;
+}
+
+.part3 .project table tbody td .progress
+{
+	margin-top: 5px;
+	height: 5px;
+	width:75px;
+	background-color: #eee;
+	position: absolute;
+	top:55px;
+	left:0;
+}
+
+.part3 .project table tbody td .progress div
+{
+	width:30%;
+	height:5px;
+	background-color:#589ee5; 
+	animation: move 1s ease-in;
+}
+
+@keyframes move
+{
+	from{width:0;}
+	to{width:30%;}
+}
+
+.part3 .project table tbody .rate .sup
+{
+	top:-22px;
+	left:51px;
+}
+
+/*------ part3 ---------*/
+
+.part4 .news
+{
+	margin-bottom: 20px;
+}
+
+.part4 .news .trade-news
+{
+	display: inline-block;
+	width:785px;
+	height:245px;
+	border:1px solid #ddd;
+}
+
+.part .marginbox
+{
+	margin:20px;
+}
+
+.part .headline
+{
+	height:35px;
+	padding-bottom: 7px;
+}
+
+.part .headline h3
+{
+	display: inline-block;
+	font-size: 16px;
+}
+
+.part .headline a
+{
+	display:inline-block;
+	color: #5b9fe2;
+}
+
+.part .headline a:hover
+{
+	text-decoration: underline;
+}
+
+.part4 .trade-news .news-info .news-img
+{
+	display: inline-block;
+	width: 170px;
+	height:170px;
+	position: relative;
+}
+
+.part4 .trade-news .news-info .news-img img
+{
+	vertical-align: middle;
+}
+
+.part4 .trade-news .news-info .news-img p
+{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width:100%;
+	height:25px;
+	background-color: #ddd;
+	opacity: 0.9;
+	font-size: 12px;
+}
+
+.part4 .trade-news .news-info ul li
+{
+	margin-bottom: 4px;
+}
+
+.part4 .trade-news .news-info ul li a
+{
+	display: inline-block;
+	font-size: 13px;
+	margin-right: 220px;
+}
+
+.part4 .trade-news .news-info ul li a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.part4 .trade-news .news-info ul li .news-date
+{
+	color:#aaa;
+	font-size: 13px;
+}
+
+.part4 .invest
+{
+	display: inline-block;
+	height:245px;
+	width:395px;
+	border:1px solid #ddd;
+}
+
+.part4 .invest .news-scroll
+{
+	height:168px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.part4 .invest ul li
+{
+	height: 24px;
+}
+
+.part4 .invest ul li span
+{
+	display: inline-block;
+	font-size: 13px;
+}
+
+.part4 .invest ul li .col-1
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.part5
+{
+	height:255px;
+	margin-bottom: 20px;
+}
+
+.part5 .answer
+{
+	display: inline-block;
+	width:787px;
+	height: 100%;
+}
+
+.part5 .answer .notice
+{
+	display: inline-block;
+	width:420px;
+	height: 100%;
+	border:1px solid #ddd;
+}
+
+.part5 .notice ul li,.part5 .answer .question ul li
+{
+	margin-bottom: -7px;
+}
+
+.part5 .notice ul li a,.part5 .answer .question ul li a
+{
+	width:260px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display: inline-block;
+	font-size: 13px;
+	float: left;
+}
+
+.part5 .notice ul li a:hover,.part5 .answer .question ul li a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.part5 .notice ul li .news-date
+{
+	display: inline-block;
+	float:right;
+	color:#aaa;
+	font-size: 13px;
+}
+
+.part5 .answer .question
+{
+	display: inline-block;
+	width:345px;
+	height:100%;
+	border:1px solid #ddd;
+}
+
+.part5 .profit
+{
+	display: inline-block;
+	width:395px;
+	height: 100%;
+	border:1px solid #ddd;
+	position: relative;
+}
+
+.part5 .profit .headline span
+{
+	color:#888;
+	font-size: 12px;
+}
+
+.part5 .profit .chart ul
+{
+	position: absolute;
+	color:#888;
+}
+
+.part5 .profit .chart .chart-y
+{
+	left:80px;
+	bottom: 60px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.part5 .profit .chart .chart-y li
+{
+	line-height:35px;
+}
+
+.part5 .profit .chart .lines
+{
+	left:135px;
+	bottom: 45px;
+}
+
+.part5 .profit .chart .lines li
+{
+	border-top: 1px solid #eee;
+	height:35px;
+	width:200px;
+}
+
+.part5 .profit .chart .chart-x 
+{
+	position: absolute;
+	bottom:43px;
+	left:140px;
+}
+
+.part5 .profit .chart .chart-x div
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.part5 .profit .chart .chart-x .col-1
+{
+	height:0;
+	width:0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 120px solid #ff5d5c;
+}
+
+.part5 .profit .chart .chart-x .col-2
+{
+	height:0;
+	width:0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 25px solid #5b9fe2;
+}
+
+.part5 .profit .chart .chart-x .col-3
+{
+	height:0;
+	width:0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid #febc50;
+}
+
+.part5 .profit .chart .chart-x div span
+{
+	display: inline-block;
+	width:50px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid #ddd;
+	color:#888;
+	background-color:#fff;
+	position:absolute;
+}
+
+.part5 .profit .chart .chart-x div.col-1 span
+{
+	color:#feaa50;
+	border: 1px solid #ffedd0;
+	background-color: #fff5e4;
+	top:-40px;
+	left:-5px;
+}
+
+.part5 .profit .chart .chart-x div.col-2 span
+{
+	top:55px;
+	left:57px;
+}
+
+.part5 .profit .chart .chart-x div.col-3 span
+{
+	top:40px;
+	left:122px;
+}
+
+.part5 .profit .chart .chart-x div span::before
+{
+	content:"";
+	height:0;
+	border:8px solid transparent;
+	border-top-color:#ddd; 
+	position:absolute;
+	top:100%;
+	left:50%;
+	margin-left: -8px;
+}
+
+.part5 .profit .chart .chart-x div.col-1 span::before
+{
+	border-top-color:#ffedd0; 
+}
+
+.part5 .profit .chart .chart-x div span::after
+{
+	content:"";
+	height:0;
+	border:7px solid transparent;
+	border-top-color:#fff; 
+	position:absolute;
+	top:100%;
+	left:50%;
+	margin-left: -7px;
+}
+
+.part5 .profit .chart .chart-x div.col-1 span::after
+{
+	border-top-color:#fff5e4; 
+}
+
+.part5 .profit .chart .chart-msg
+{
+	display: inline-block;
+	width:260px;
+	border-top: 1px solid #eee;
+	position: absolute;
+	bottom: 15px;
+	left:75px;
+}
+
+.part5 .profit .chart .chart-msg li
+{
+	display: inline-block;
+	padding: 5px 0px 5px 20px;
+}
+
+.flowsheet .flowsheet-box 
+{
+	background-color: #f6f6f6;
+	height:150px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.flowsheet img
+{
+	vertical-align: middle;
+}
+
+.flowsheet .partner
+{
+	background-color:#fff;
+} 
+
+.flowsheet .partner .partnerbox
+{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+}
+
+.flowsheet .partner .partnerbox h3
+{
+	font-size:20px;
+	text-align: center;
+	line-height: 80px;
+}
+
+.flowsheet .partner .partnerbox img
+{
+	vertical-align: middle;
+}
+/*-----------  home.html end ----------*/
+/*-----------  invest.html start ----------*/
+.tab
+{
+	width:1000px;
+	margin:25px auto;
+	border:1px solid #ddd;
+	position: relative;
+}
+
+.tab .tab-list
+{
+	width:100%;
+	height:50px;
+	border-bottom: 1px solid #ddd;
+}
+
+.tab .tab-list li 
+{
+	cursor: pointer;
+	display: inline-block;
+	width: 150px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.tab .tab-list li span
+{
+	position: absolute;
+    font-weight: 500;
+    color: #888;
+}
+
+.tab .tab-list li .line1
+ {
+ 	left: 151px;
+ }
+
+ .tab .tab-list li .line2
+ {
+ 	left: 305px;
+ }
+
+.tab .tab-list li.on
+{
+	border-top: 2px solid red;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #fff;
+	font-weight: 600;
+	margin-top:-1px;
+}
+
+.tab .tab-list li.remove
+{
+	border-left: none;
+}
+
+.tab .content dl
+{
+	margin:20px 0px 20px 20px;
+	height:25px;
+	line-height: 25px;
+}
+
+.tab .content dl dt
+{
+	display: inline-block;
+	color:#888;
+}
+
+.tab .content dl dd
+{
+	width: 70px;
+	display: inline-block;
+	text-align:center;
+	margin-left: 10px;
+}
+
+.tab .content dl dd.on
+{
+	background-color: #E12B2B;
+	border-radius: 5px;
+	color:#fff;
+}
+
+.tab .content dl dd.on:hover
+{
+	color:red;
+}
+
+.tab .content dl dd:hover
+{
+	background-color: #ddd;
+}
+
+.tab .content div 
+{
+	margin-left: 20px;
+	color:#888;
+	margin-bottom:20px;
+}
+
+.tab .content .search
+{
+	color:#888;
+	width:150px;
+	height:30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:1px solid #ddd;
+}
+
+.tab .content .btn
+{
+	background-color: #f8f8f8;
+	height:30px;
+	width:70px;
+	border:1px solid #ddd;
+}
+
+
+.tab .content .btn:hover
+{
+	color:#fff;
+	background-color: #E12B2B;
+}
+
+.tab .content .sub-item
+{
+	width: 200px;
+	padding-top:10px;
+	border:1px solid #ddd;
+	text-align: center;
+	position: absolute;
+	top:65px;
+	right: 65px;
+}
+
+.tab .content .sub-item span
+{
+	display: block;
+	margin-bottom: 15px;
+}
+
+.tab .content .sub-item p
+{
+	height: 50px;
+	line-height: 50px;
+	background-color: #E12B2B;
+	
+	font-size: 22px;
+}
+
+.tab .content .sub-item p a
+{
+	color: #fff;
+}
+
+.tab .content .sub-item p:hover a
+{
+	color: #222;
+}
+
+.tab .content2
+{
+	display: none;
+}
+
+.tab .content3
+{
+	display: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.tab .content3 ul li
+{
+	display: inline-block;
+	margin-top:30px;
+	padding-right: 28px;
+	padding-left:28px;
+	border-left:1px solid #ddd;
+}
+
+.tab .content3 ul li.col-1,.tab .content3 ul li.col-2
+{
+	border:none;
+}
+
+.tab .content3 ul li img
+{
+	vertical-align: middle;
+    margin-bottom: 50px;
+    margin-right: -20px;
+}
+
+.tab .content3 ul li.col-2
+{
+	margin-top: 10px;
+}
+
+.tab .content3 ul li.col-2 p
+{
+	font-size: 25px;
+	color:#E12B2B;
+	font-weight: 600;
+}
+
+.tab .content3 ul li.col-2 span
+{
+
+	font-size: 20px;
+	color: #666;
+}
+
+.tab .content3 ul li p
+{
+	font-size: 16px;
+	color:#666;
+}
+
+.tab .content3 ul li span
+{
+	margin-top: 25px;
+	font-size: 16px;
+	color:#E12B2B;
+}
+
+.tab .content3 ul li span small
+{
+	font-size: 14px;
+	color:#666;
+}
+
+.tab .content3 .tender
+{
+	position: absolute;
+	top:10px;
+	right:15px;
+}
+
+.tab .content3 .tender a
+{
+	padding:3px 20px;
+	color:#fff;
+	font-size: 16px;
+	background-color: #E12B2B;
+	margin-left: 10px;
+}
+
+.tab .content3 .tender a:hover
+{
+	color:#000;
+}
+
+.event
+{
+	width:1000px;
+	margin:20px auto;
+}
+
+.eventsbox
+{
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding:20px 80px 0px 60px;
+}
+
+.eventsbox:hover
+{
+	background-color:#f8f8f8;
+	cursor: pointer;
+}
+
+.event .row-1 img
+{
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+.event .row-1 p
+{
+	display: inline-block;
+	margin-right:10px;
+}
+
+.event .row-1 p .icon
+{
+	width:23px;
+	height:23px;
+	vertical-align: middle;
+	background:url(../images/spring.fw.png) -50px -192px no-repeat; 
+} 
+
+.event .row-1 p a
+{
+	font-size: 18px;
+}
+
+.event .row-1 p a:hover
+{
+	color: red;
+}
+
+.event .row-1 .count
+{
+	display: inline-block;
+	color: #fff;
+    width: 85px;
+    text-align: center;
+    height: 25px;
+    background-color: #E12B2B;
+    position: relative;
+}
+
+.event .row-1 .count .icon
+{
+	height: 0;
+    margin-top: 2px;
+    margin-left: 3px;
+    vertical-align: middle;
+    border: 5px solid transparent;
+    border-top-color: #fff;
+}
+
+.event .row-1 .count .count-income
+{
+	display: none;
+	width:220px;
+	background-color:#fff; 
+	border:1px solid #ddd;
+	padding:10px;
+	color: #444;
+	position: absolute;
+	top:30px;
+	left: 0;
+}
+
+.event .row-1 .count .count-income dl dt
+{
+	width:35%;
+	display: inline-block;
+	text-align: right;
+	margin-right: 3px; 
+}
+
+.event .row-1 .count .count-income dl dd
+{
+	width:40%;
+	display: inline-block;
+	text-align: left;
+	margin-top:5px;
+}
+
+.event .row-1 .count .count-income dl dd input
+{
+	padding: 2px 10px;
+	width:70px;
+	border:1px solid #ddd;
+}
+
+.event .row-2
+{
+	margin-top: 20px;
+	height:80px;
+	
+}
+
+.event .row-2 li
+{
+	height: 60px;
+	width:160px;
+	display: inline-block;
+	color:#666;
+	text-align:center;
+}
+
+.event .row-2 li small
+{
+	font-size: 13px;
+}
+
+.event .row-2 li span
+{
+	font-size: 18px;
+	font-weight:600;
+	color:#E12B2B;
+}
+
+.event .row-2 li.progress span
+{
+	font-size: 15px;
+	color:#666;
+	font-weight: 500;
+}
+
+.event .row-2 li.progress div
+{
+    height: 7px;
+    width: 120px;
+    background-color: #ddd;
+    margin: 10px auto;
+}
+
+.event .row-2 li.progress div p
+{
+	height:100%;
+	width: 50%;
+	background-color: #C2EDFE;
+	animation: move 1s ease-in;
+}
+
+@keyframes move
+{
+	from{width: 0;}
+	to{width: 50%;}
+}
+
+.event .row-2 li.btn 
+{
+	margin-right: 0;
+}
+
+.event .row-2 li.btn a
+{
+	background-color: #E12B2B;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.event .row-2 li.btn a:hover
+{
+	opacity: 0.7;
+}
+
+.event .row-2 li.btn a span
+{
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	background: url(../images/spring.fw.png) -135px -192px no-repeat;
+}
+
+.event .row-3 
+{
+	padding-top: 10px;
+    padding-bottom: 10px;
+	border-top: 1px dashed #ddd;
+}
+
+.event .row-3 li
+{
+	display: inline-block;
+	color:#666;
+	margin-right:90px;
+}
+
+.ft-page
+{
+	height:110px;
+	text-align: center;
+}
+
+.event .ft-page
+{
+	border:1px solid #ddd;
+	width:1000px;
+}
+
+.ft-page a
+{
+	padding:5px 10px;
+	border:1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 35px;
+}
+
+.ft-page a.on
+{
+	border:none;
+}
+
+.ft-page a:hover
+{
+	background-color: #E12B2B;
+	color:#fff;
+}
+
+.event3 .point
+{
+	height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #888;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.event3 .point span
+{
+	width: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 22px;
+    background: url(../images/spring.fw.png) -199px -192px no-repeat;
+}
+
+.event3 .row-1 p .icon
+{
+    width: 20px;
+    height: 20px;
+    background: url(../images/spring.fw.png) -172px -192px no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.event2,.event3
+{
+	display: none;
+}
+
+/*--------- safeguard.html ----------*/
+.safeguard .safe-banner 
+{
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+
+.safeguard .safe-banner img
+{
+	height: 280px;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-693px;
+}
+
+.safeguard .safe-banner span
+{
+	position: absolute;
+	top:5px;
+	right: -250px;
+}
+
+.safeguard .safe-banner span img
+{
+	height: 230px;
+}
+
+.safeguard h2,.safeguard h3
+{
+	text-align: center;
+}
+
+.safeguard h2
+{ 
+	padding-top: 7px;
+	font-size: 25px;
+	font-weight:600;
+	color:#10A2F2;
+}
+
+.safeguard h3
+{
+	padding-top: 7px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	color:#999;
+}
+
+.safeguard .casing1,.safeguard .casing3
+{
+	background-color: #fbfbfb;
+}
+
+.safeguard .portion
+{
+	width: 1000px;
+	height: 450px;
+	margin:10px auto;
+}
+
+.safeguard .portion div
+{
+	display: inline-block;
+	width: 49%;
+	height: 100%;
+}
+
+.safeguard .portion div p
+{
+	font-size: 25px;
+	font-weight: 600;
+	color:#444;
+	margin-top:120px;
+	margin-left: 130px;
+}
+
+.safeguard .casing2 .portion div p,.safeguard .casing2 .portion div span
+{
+	margin-left: 0;
+	margin-right: 140px;
+} 
+
+.safeguard .portion div p em
+{
+	color:#FFDA00;
+	font-size: 36px;
+}
+
+.safeguard .portion div span
+{
+	margin-top:20px;
+	margin-left: 130px;
+	font-size: 16px;
+	color: #888;
+}
+
+.safeguard .casing2 .portion div
+{
+	text-align: right;
+}
+
+.safeguard .portion .safeguard-img
+{
+	float: left;
+	width: 49%;
+	text-align: center;
+}
+
+.safeguard .portion .safeguard-img img
+{
+	vertical-align: middle;
+}
+
+.safeguard .casing2 .portion .safeguard-img
+{
+	float: right;
+}
+
+.safeguard .casing2 .portion .safeguard-img img
+{
+	padding-top:30px;
+}
+
+.safeguard .casing3 .portion .safeguard-img img
+{
+	padding-top: 30px;
+}
+
+.safeguard .recommend
+{
+	width: 750px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.safeguard .recommend .line
+{
+	background-color:#FFAC00;
+	width: 100px;
+	height:3px;
+	margin: 5px 10px;
+}
+
+.safeguard .recommend span
+{
+	margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color:#FFAC00;
+}
+
+.safeguard .recommend p
+{
+	font-size:16px;
+	color:#888;
+	text-align: left;
+	line-height: 40px;
+}
+
+.safeguard .feature-img
+{
+	text-align: center;
+}
+
+.safeguard .feature-img span
+{
+	height: 239px;
+	width: 239px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.safeguard .feature-img .one
+{
+	background:url(../images/icon_02.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .one:hover
+{
+	background:url(../images/cz.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .two
+{
+	background:url(../images/icon_04.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .two:hover
+{
+	background:url(../images/smrz.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .three
+{
+	background:url(../images/icon_06.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .three:hover
+{
+	background:url(../images/tg.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .four
+{
+	background:url(../images/icon_08.png) 0 0 no-repeat;
+}
+
+.safeguard .feature-img .four:hover
+{
+	background:url(../images/jz.png) 0 0 no-repeat;
+}
+
+/*----------- about.html ---------*/
+.about
+{
+	width: 1000px;
+	margin:30px auto;
+}
+
+.about .sidebar
+{
+	width:145px;
+	border:1px solid #ddd;
+	display: inline-block;
+}
+
+.about .sidebar p
+{
+	height: 50px;
+	line-height: 50px;
+	background-color: #E12B2B;
+	color:#fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.about .sidebar ul li 
+{
+	margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.about .sidebar ul li span
+{
+	height:30px;
+	width:30px;
+	vertical-align: middle;
+}
+
+.about .sidebar ul li a
+{
+	font-weight: 600;
+}
+
+.about .sidebar ul li.active a
+{
+	color:#E12B2B;
+}
+
+.about .sidebar ul li .summary
+{
+	background:url(../images/spring.fw.png) -123px -326px no-repeat;
+}
+
+.about .sidebar ul li.active .summary
+{
+	background:url(../images/spring.fw.png) -83px -326px no-repeat;
+}
+
+.about .sidebar ul li .history
+{
+	background:url(../images/spring.fw.png) -210px -329px no-repeat;
+}
+
+.about .sidebar ul li.active .history
+{
+	background:url(../images/spring.fw.png) -170px -329px no-repeat;
+}
+
+.about .sidebar ul li .news
+{
+	background:url(../images/spring.fw.png) -37px -285px no-repeat;
+}
+
+.about .sidebar ul li.active .news
+{
+	background:url(../images/spring.fw.png) 3px -285px no-repeat;
+}
+
+.about .sidebar ul li .public
+{
+	background:url(../images/spring.fw.png) -122px -289px no-repeat;
+}
+
+.about .sidebar ul li.active .public
+{
+	background:url(../images/spring.fw.png) -83px -289px no-repeat;
+}
+
+.about .content-area
+{
+	display: inline-block;
+	width:830px;
+	border:1px solid #ddd;
+}
+
+.about .content-area h3
+{
+	border-bottom:1px solid #ddd;
+	height:70px;
+	line-height: 70px;
+	font-weight: 600;
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+.about .content-area h3 span
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 2px solid #E12B2B;
+}
+
+.about .content-area .main-info
+{
+	margin:30px 30px 30px 20px;
+}
+
+.about .content-area .company .main-info img
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+
+.about .content-area .company .main-info p
+{
+	margin-bottom: 20px;
+	line-height: 35px;
+	text-indent: 2em;
+	color:#444;
+}
+
+.about .content-area .company .main-info .company-img span
+{
+	display: block;
+    font-size: 20px;
+    color: #E12B2B;
+    line-height: 70px;
+}
+
+.about .content-area .company .main-info .company-img img
+{
+	width:370px;
+}
+
+.about .content-area .develop,.about .content-area .industry,.about .content-area .platform
+{
+	display: none;
+}
+
+.news-list
+{
+	margin:30px 30px 10px 30px;
+}
+
+.news-list li
+{
+	height:40px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.news-list li:hover
+{
+	background-color: #f6f6f6;
+}
+
+.news-list li a
+{
+	display: inline-block;
+	line-height:40px;
+	letter-spacing: 0.02em;
+}
+
+.news-list li span
+{
+	display: inline-block;
+	float:right;
+}
+
+.about .content-area .industry .ft-page
+{
+	width: 830px;
+}
+
+.about .content-area .platform .icon
+{
+	height:22px;
+	width: 22px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: url(../images/spring.fw.png) -225px -192px no-repeat;
+}
+
+.

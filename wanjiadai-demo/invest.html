@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>万家贷demo</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="shortcut icon" href="http://static.wjdai.com/ico.ico" />
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/commen.js"></script>
+</head>
+<body>
+	<!-- header start -->
+	<div class="header">
+		<div class="header-top">
+			<div class="top-left">
+				<span>欢迎致电：400-698-0607 <small>（服务时间：8:30 - 21:00）</small></span>
+				<ul>
+					<li class="weixin">
+						<span class="icon ic-weixin"></span>
+						<div class="sub">
+							<img src="images/self-weixin.jpg" alt="" />
+							<p>微信关注</p>
+						</div>  
+					</li>
+					<li><a href="#" class="icon ic-xinlang"></a></li>
+					<li class="phone">
+						<span class="icon ic-phone"></span>
+						<div class="sub">
+							<img src="images/self-weixin.jpg" alt="" />
+							<p>扫一扫下载App</p>
+						</div>  
+						<span>手机App</span>
+					</li>
+				</ul>
+			</div>
+			<ul class="header-top-right">
+				<li>
+					<a href="#">登录</a>
+					<span>|</span>
+				</li>
+				<li>
+					<a href="#"><img src="images/register.gif" class="register-gif" alt="注册有礼" /></a>
+					<span>|</span>
+				</li>
+				<li>
+					<a href="#">新手指引</a>
+					<span>|</span>
+				</li>
+				<li>
+					<a href="#">帮助中心</a>
+				</li>
+			</ul>
+		</div>
+		<hr/>	
+		<div class="header-bottom">
+			<div class="bottom-left">
+				<a href="#">
+					<img src="images/logo.jpg" alt="logo" title="logo" />
+					<span>万家金融旗下<br/>全国百强金融服务企业</span>
+				</a>
+			</div>			
+			<ul class="nav float-right"> 
+				<li><a href="index.html">首页</a></li> 
+				<li><a href="invest.html" class="onNav">我要投资</a></li> 
+				<li><a href="safeguard.html">安全保障</a></li> 
+				<li><a href="about.html">关于我们</a></li><li><a href="#">我的账户</a></li> 
+			</ul> 
+			<div class="clear-fix"></div>
+		</div>
+		<hr/>
+	</div>
+	<!-- header end -->
+	<!-- tab start -->
+	<div class="tab">
+		<ul class="tab-list clear-fix">
+			<li class="on remove">直投项目</li>
+			<li>债权转让</li>
+			<li>定投宝</li>
+		</ul>
+		<div class="contents">
+			<div class="content content1">
+				<dl>
+					<dt>借款状态:</dt>
+					<dd class="on">不限制</dd>
+					<dd>进行中</dd>
+					<dd>复审中</dd>
+					<dd>还款中</dd>
+					<dd>已完成</dd>
+				</dl>
+				<dl>
+					<dt>信用等级:</dt>
+					<dd class="on">不限制</dd>
+					<dd>HR</dd>
+					<dd>E</dd>
+					<dd>D</dd>
+					<dd>C</dd>
+					<dd>B</dd>
+					<dd>A</dd>
+				</dl>
+				<dl>
+					<dt>借款期限:</dt>
+					<dd class="on">不限制</dd>
+					<dd>3个月以内</dd>
+					<dd>3-6个月</dd>
+					<dd>6-12个月</dd>
+					<dd>12-24个月</dd>
+				</dl>
+				<div>
+					<span>关键词搜索:</span>
+					<input type="text" name="#" value="" placeholder="输入借款标名称" class="search radius-5" />
+					<input type="submit" name="button" value="查询" class="btn radius-5" />
+				</div>
+				<div class="sub-item">
+					<img src="images/setborrow.gif" />
+					<span>没时间投标？快使用</span>
+					<p><a href="#">自动投标</a></p>
+				</div>
+			</div>
+			<div class="content content2">
+				<dl>
+					<dt>借款状态:</dt>
+					<dd class="on">不限制</dd>
+					<dd>还款中</dd>
+					<dd>已完成</dd>
+				</dl>
+				<dl>
+					<dt>信用等级:</dt>
+					<dd class="on">不限制</dd>
+					<dd>HR</dd>
+					<dd>E</dd>
+					<dd>D</dd>
+					<dd>C</dd>
+					<dd>B</dd>
+					<dd>A</dd>
+				</dl>
+				<dl>
+					<dt>借款期限:</dt>
+					<dd class="on">不限制</dd>
+					<dd>3个月以内</dd>
+					<dd>3-6个月</dd>
+					<dd>6-12个月</dd>
+					<dd>12-24个月</dd>
+				</dl>
+				<div>
+					<span>关键词搜索:</span>
+					<input type="text" name="#" value="" placeholder="输入借款标名称" class="search radius-5" />
+					<input type="submit" name="button" value="查询" class="btn radius-5" />
+				</div>
+				<div class="sub-item">
+					<img src="images/setborrow.gif" />
+					<span>没时间投标？快使用</span>
+					<p><a href="#">自动投标</a></p>
+				</div>
+			</div>
+			<div class="content content3">
+				<ul>
+					<li class="col-1">
+						<img src="images/bzp.png" />
+					</li>
+					<li class="col-2">
+						<p>定投宝</p>
+						<span>省时省心,不用抢标的理财计划!</span>
+					</li>
+					<li>
+						<p>累计总金额</p>
+						<span>2300000.00<small>元</small></span>
+					</li>
+					<li>
+						<p>已为用户赚取</p>
+						<span>195564.56<small>元</small></span>
+					</li>
+					<li>
+						<p>总购买人数</p>
+						<span>38<small>人</small></span>
+					</li>
+				</ul>
+				<div class="tender">
+					<span>没时间投标？请使用</span>
+					<a href="#" class="radius-5">自动投标</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tab end -->
+	<!-- events start -->
+	<div class="events">
+		<div class="event event1">
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<img src="images/01.png" />
+					<p><span class="icon"></span><a href="#">【第2578期】车贷 抵押借款 东风【桂林站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<img src="images/tz-tixin.png" />
+					<p><span class="icon"></span><a href="#">【第2576期】车贷 抵押借款 奥迪【朝阳站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<img src="images/tz-tixin.png" />
+					<p><span class="icon"></span><a href="#">【第2582期】车贷 抵押借款 奔驰【范县站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<img src="images/tz-tixin.png" />
+					<p><span class="icon"></span><a href="#">【第2575期】车贷 抵押借款 奥迪【三亚站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2550期】车贷 抵押借款 日产【榆林站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2287期】车贷 抵押借款 大众【广州站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2577期】车贷 抵押借款 Jeep【合肥站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2544期】车贷 抵押借款 奥迪【大连站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2539期】车贷 抵押借款 奔驰【益阳站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="eventsbox relative">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2578期】车贷 抵押借款 东风【桂林站】</a></p>
+					<div class="count radius-5">
+						计算收益<span class="icon"></span>
+						<div class="count-income radius-5">
+							<dl>
+								<dt>投资金额:</dt>
+								<dd>
+									<input type="text" name="num" placeholder="输入金额" />
+								</dd>
+								<dt>年利率:</dt>
+								<dd>15.00%</dd>
+								<dt>奖励:</dt>
+								<dd>0.00%</dd>
+								<dt>可获得收益:</dt>
+								<dd class="result"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>年化利息</li>
+					<li class="float-left"><span>10<small>天</small></span><br/>借款期限</li>
+					<li class="float-left"><span>50<small>元</small></span><br/>起投金额</li>
+					<li class="progress float-left">
+						<span>可投143810.00元</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>发标时间:2016-09-03 17:12</li>
+					<li>还款方式:到期还本利息</li>
+					<li>起投金额:50元</li>
+				</ul>
+			</div>
+			<div class="ft-page">
+				<a href="#1">首页</a>
+				<a href="#1">上一页</a>
+				<a href="#1" class="on">1</a>
+				<a href="#1">2</a>
+				<a href="#1">3</a>
+				<a href="#1">4</a>
+				<a href="#1">5</a>
+				<a href="#1">下一页</a>
+				<a href="#1">尾页</a>
+			</div>
+		</div>
+		<div class="event event2">
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第1443期】车贷 抵押借款 宝马【合肥站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>12.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>2期/<small>2期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>10080.00.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2220期】车贷 抵押借款 铃木【范县站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">【第2193期】车贷 抵押借款 铃木【平顶山站】</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>15.00%</span><br/>借款利率</li>
+					<li class="float-left"><span>3期/<small>3期</small></span><br/>转让期数/总期数</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>转让价格</li>
+					<li class="float-left"><span>515.00<small>元</small></span><br/>待本收息</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+			</div>
+			<div class="ft-page">
+				<a href="#1">首页</a>
+				<a href="#1">上一页</a>
+				<a href="#1" class="on">1</a>
+				<a href="#1">2</a>
+				<a href="#1">3</a>
+				<a href="#1">4</a>
+				<a href="#1">5</a>
+				<a href="#1">下一页</a>
+				<a href="#1">尾页</a>
+			</div>
+		</div>
+		<div class="event event3">
+			<p class="point"><span class="icon"></span>定投宝锁定期内本金自动复投,利息可以选择复投,返回账户。锁定结束返回本金和利息</p>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">定投宝(DTB-00000003)</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>13.00%~13.80%</span><br/>年化利息</li>
+					<li class="float-left"><span>12<small>个月</small></span><br/>期限</li>
+					<li class="float-left"><span>1000000，00<small>元</small></span><br/>总金额</li>
+					<li class="progress float-left">
+						<span>可投分数:10份</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>保障方式: 100%本息保障</li>
+					<li>11人次已加入</li>
+					<li>起投金额: 0 元</li>
+				</ul>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">定投宝(DTB-00000003)</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>13.00%~13.80%</span><br/>年化利息</li>
+					<li class="float-left"><span>12<small>个月</small></span><br/>期限</li>
+					<li class="float-left"><span>1000000，00<small>元</small></span><br/>总金额</li>
+					<li class="progress float-left">
+						<span>可投分数:10份</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>保障方式: 100%本息保障</li>
+					<li>11人次已加入</li>
+					<li>起投金额: 0 元</li>
+				</ul>
+			</div>
+			<div class="eventsbox">
+				<div class="row-1">
+					<p><span class="icon"></span><a href="#">定投宝(DTB-00000003)</a></p>
+				</div>
+				<ul class="row-2">
+					<li class="float-left"><span>13.00%~13.80%</span><br/>年化利息</li>
+					<li class="float-left"><span>12<small>个月</small></span><br/>期限</li>
+					<li class="float-left"><span>1000000，00<small>元</small></span><br/>总金额</li>
+					<li class="progress float-left">
+						<span>可投分数:10份</span>
+						<div class="radius-5">
+							<p class="radius-5"></p>
+						</div>
+					</li>
+					<li class="btn float-right"><a class="radius-5" href="#">
+						<span></span>立即投资
+					</a></li>
+				</ul>
+				<div class="clear-fix"></div>
+				<ul class="row-3">
+					<li>保障方式: 100%本息保障</li>
+					<li>11人次已加入</li>
+					<li>起投金额: 0 元</li>
+				</ul>
+			</div>
+			<div class="ft-page">
+				<a href="#1">首页</a>
+				<a href="#1">上一页</a>
+				<a href="#1" class="on">1</a>
+				<a href="#1">下一页</a>
+				<a href="#1">尾页</a>
+			</div>
+		</div>
+	</div>
+	<!-- events end -->
+	<!-- flowsheet -->
+	<div class="main-steps">
+		<img src="images/main-steps.png" />
+	</div>
+	<!-- footer start -->
+	<div class="wrap">
+		<div class="footer clear-fix">
+			<div class="footerbox">
+				<ul class="menu">
+					<li><a href="#">关于我们</a><span>|</span></li>
+					<li><a href="#">安全保障</a><span>|</span></li>
+					<li><a href="#">新手指引</a><span>|</span></li>
+					<li><a href="#">帮助中心</a><span>|</span></li>
+					<li><a href="#">招商加盟</a><span>|</span></li>
+					<li><a href="#">联系我们</a><span>|</span></li>
+					<li><a href="#">万家资讯</a></li>
+				</ul>
+				<div class="call">
+					<span class="icon1"></span>
+					<span>400-698-0607</span>
+					<small>（服务时间： 8:30 - 21:00）</small>
+					<span class="icon icon2"></span>
+					<span class="icon icon3"></span>
+					<span class="icon icon4"></span>
+				</div>
+				<dl>
+					<dt>友情链接 :</dt>
+					<dd><a href="#">多多贷</a></dd>
+					<dd><a href="#">微商传媒</a></dd>
+					<dd><a href="#">金融+</a></dd>
+					<dd><a href="#">p2p理财论坛</a></dd>
+					<dd><a href="#">投资理财</a></dd>
+					<dd><a href="#">网络理财</a></dd>
+					<dd><a href="#">在线理财</a></dd>
+					<dd><a href="#">p2p电影投资</a></dd>
+					<dd class="more"><a href="#">更多...</a></dd>
+				</dl>
+				<div class="safe">
+					<a href="#"><img src="images/360safe.png" /></a>
+					<a href="#"><img src="images/gxb.jpg" /></a>
+					<a href="#"><img src="images/hy_124x47.png" /></a>
+				</div>
+				<div class="copyright float-right">
+					<small>池州万家金融服务有限公司 © 2016版权所有 </small>
+					<span>|</span>
+					<small>备案号：皖ICP备12012015号-1</small>
+				</div>
+				<p>站长统计</p>
+				<div class="download clear-fix">
+					<img src="images/self-weixin.jpg" />
+					<div class="float-right">
+					<p>下载手机万家贷</p>
+					<p>扫一扫，随时随地理财</p>
+					<a href="#" class="icon1 radius-5">
+						<span></span>iphone
+					</a>
+					<a href="#" class="icon2 radius-5">
+						<span></span>Android
+					</a>
+					</div>
+				</div>		
+			</div>
+		</div>
+		<button class="back-to-top radius-5">返回<br/>顶部</button>
+	</div>
+	<!-- footer end -->
+
+	<script type="text/javascript">
+	// Tab switch
+	$(function () {
+		$(".tab .tab-list li").click(function () {
+			$(this).addClass("on").siblings().removeClass("on");
+
+			var index = $(this).index();
+			$(".tab .contents .content").eq(index).show().siblings().hide();
+			$(".events .event").eq(index).show().siblings().hide();
+		})
+	})		
+	</script>
+</body>
+</html>

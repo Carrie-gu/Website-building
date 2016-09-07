@@ -1,0 +1,308 @@
+body
+{
+	font-family:"Microsoft YaHei",Arial,Verdana,Helvetica,sans-serif;
+	font-size: 14px;
+}
+
+.float-left
+{
+	float:left;
+}
+
+.float-right
+{
+	float:right;
+}
+
+.ml-95
+{
+	margin-left:95px;
+}
+
+.ml-145
+{
+	margin-left:145px;
+}
+
+.radius-5
+{
+	border-radius:5px;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.bc-none
+{
+	background-color: #fff;
+}
+
+.clear-fix
+{
+	clear:both;
+}
+/*----- header start ------- */
+hr
+{
+	border:none;
+	height: 1px;
+	background-color: #ddd;
+	margin-top: 1px;
+}
+
+.header-top,.header-bottom
+{
+	height:30px;
+	width:1000px;
+	margin:0 auto;
+}
+
+.top-left
+{
+	display: inline-block;
+}
+
+.top-left span
+{
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.top-left span small
+{
+	font-size: 12px;
+	color:#888;
+}
+
+.top-left ul
+{
+	list-style:none;
+	display: inline-block;
+}
+
+.top-left ul li
+{
+	display: inline-block;
+	height:30px;
+	cursor: pointer;
+}
+
+.top-left ul li .icon
+{
+	vertical-align: middle;
+	height: 25px;
+	width:25px;
+}
+
+.top-left ul li .ic-weixin
+{
+	background:url(../images/spring.fw.png) 0px -68px no-repeat;
+}
+
+.top-left ul li:hover .ic-weixin
+{
+	background:url(../images/spring.fw.png) 0px -96px no-repeat;
+}
+
+.top-left ul li .ic-xinlang
+{
+	background:url(../images/spring.fw.png) -30px -68px no-repeat;
+}
+
+.top-left ul li:hover .ic-xinlang
+{
+	background:url(../images/spring.fw.png) -30px -95px no-repeat;
+}
+
+.top-left ul li .ic-phone
+{
+	background:url(../images/spring.fw.png) -58px -70px no-repeat;
+	line-height: 30px;
+}
+
+.top-left ul li:hover .ic-phone
+{
+	background:url(../images/spring.fw.png) -58px -96px no-repeat;
+	line-height: 30px;
+}
+
+.top-left ul li.phone span
+{
+	vertical-align: middle;
+	font-size: 12px;
+	color: #888;
+}
+
+.weixin
+{
+	position: relative;
+}
+
+.weixin .sub
+{
+	display: none;
+	position: absolute;
+    top:80px;
+    left:-50px;
+    z-index: 555;
+}
+
+.phone .sub
+{
+	display: none;
+	position: absolute;
+    top:82px;
+    left:482px;
+    z-index: 555;
+}
+
+.sub
+{
+    display: inline-block;
+    background-color: #fff;
+    border:1px solid #888;
+    border-radius:5px;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+}
+
+.sub img
+{
+    height: 80px;
+    width:80px;
+}
+
+.sub p
+{
+    font-size: 12px;
+    color:#888;
+}
+
+.sub::before,.sub::after
+{
+    content: "";
+    position:absolute;
+    left:50%;
+    bottom:100%;
+}
+
+.sub::before
+{
+    border:8px solid transparent;
+    border-bottom-color:#888;
+    margin-left: -8px;
+    
+}
+
+.sub:after
+{
+    border:7px solid transparent;
+    border-bottom-color:#fff;
+    margin-left: -7px;
+}
+
+.header-top-right
+{
+	float:right;
+	display: inline-block;
+}
+
+.header-top-right li
+{
+	display:inline-block;
+	font-size: 12px;
+	color:#666;
+	line-height: 30px;
+}
+
+.header-top-right li:hover a
+{
+	color:red;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.header-top-right li span
+{
+	margin:0px 10px;
+	font-size:10px;
+	color:#ddd;
+}
+
+.header-top-right li .register-gif
+{
+	margin:-39px -34px -37px -3px;
+}
+
+.header-bottom
+{
+	height:90px;
+}
+
+.header-bottom .bottom-left
+{
+	display: inline-block;
+	height:100%;
+}
+
+.header-bottom .bottom-left a
+{
+	margin-top: 15px;
+}
+
+.header-bottom .bottom-left a img
+{
+	vertical-align: middle;
+
+}
+
+.header-bottom .bottom-left a span
+{
+	border-left:1px  solid #aaa;
+	padding-left: 15px;
+	margin-left:10px;
+	font-size:12px;
+	color:#666;
+}
+
+.header-bottom .nav
+{
+	width: 600px;
+}
+
+.header-bottom .nav li
+{
+	line-height: 90px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight:600;
+}
+
+.header-bottom .nav li a
+{
+	display: block;
+	width: 110px;
+	text-align: center;
+}
+
+.header-bottom .nav li a:hover,.onNav
+{
+	color:red;
+}
+
+/*-----------  flowsheet ------*/
+.main-steps
+{
+	height:150px;
+	line-height: 150px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.main-steps img
+{
+	vertical-align: middle;
+}
